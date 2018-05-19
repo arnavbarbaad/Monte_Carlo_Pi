@@ -29,6 +29,6 @@ for i in range (1,100):
         ax.plot(x_rand, y_rand, 'go', markersize=1)
         outside=outside+1
     pi = 4*(inside/(inside+outside))
-    ax.set_title("$\pi$ = "+ str(format(pi,'.7f')))
+    ax.set_title("$\pi$ = "+ str(format(pi,'.7f'))) #Show 7 decimal places of Pi
     plt.savefig("path_to_the_folder/frame"+str(i))
-    plt.close()m
+    plt.close()
